@@ -104,7 +104,7 @@ def test_api_key():
     @izi.authentication.api_key
     def api_key_authentication(api_key):
         if api_key == 'Bacon':
-            return 'Timothy'
+            return 'ViTuocGia'
 
     @izi.get(requires=api_key_authentication)
     def hello_world():
@@ -130,7 +130,7 @@ def test_api_key():
     def context_api_key_authentication(api_key, context):
         assert context == custom_context
         if api_key == 'Bacon':
-            return 'Timothy'
+            return 'ViTuocGia'
 
     @izi.get(requires=context_api_key_authentication)
     def hello_context_world():
@@ -149,14 +149,14 @@ def test_api_key():
 
 def test_token_auth():
     """Test JSON Web Token"""
-    #generated with jwt.encode({'user': 'Timothy','data':'my data'}, 'super-secret-key-please-change', algorithm='HS256')
+    #generated with jwt.encode({'user': 'ViTuocGia','data':'my data'}, 'super-secret-key-please-change', algorithm='HS256')
     precomptoken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoibXkgZGF0YSIsInVzZXIiOiJUaW1vdGh5In0.' \
                    '8QqzQMJUTq0Dq7vHlnDjdoCKFPDAlvxGCpc_8XF41nI'
 
     @izi.authentication.token
     def token_authentication(token):
         if token == precomptoken:
-            return 'Timothy'
+            return 'ViTuocGia'
 
     @izi.get(requires=token_authentication)
     def hello_world():
@@ -182,7 +182,7 @@ def test_token_auth():
     def context_token_authentication(token, context):
         assert context == custom_context
         if token == precomptoken:
-            return 'Timothy'
+            return 'ViTuocGia'
 
     @izi.get(requires=context_token_authentication)
     def hello_context_world():

@@ -21,7 +21,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 """
 import izi
 
-TEST_SCHEMA = {'first': 'Timothy', 'place': 'Seattle'}
+TEST_SCHEMA = {'first': 'ViTuocGia', 'place': 'Seattle'}
 
 
 def test_all():

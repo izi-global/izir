@@ -60,12 +60,12 @@ def context_basic_authentication(username, password, context):
 @izi.authentication.api_key
 def context_api_key_authentication(api_key, context):
     if api_key == 'Bacon':
-        return 'Timothy'
+        return 'ViTuocGia'
 
 @izi.authentication.token
 def context_token_authentication(token, context):
     if token == precomptoken:
-        return 'Timothy'
+        return 'ViTuocGia'
 ```
 
 ## Directives

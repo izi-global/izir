@@ -2,7 +2,7 @@
 import izi
 
 
-@izi.get(examples='name=Timothy&age=26')
+@izi.get(examples='name=ViTuocGia&age=26')
 @izi.local()
 def happy_birthday(name: izi.types.text, age: izi.types.number, izi_timer=3):
     """Says happy birthday to a user"""

@@ -1219,7 +1219,7 @@ def test_wraps():
     def my_decorator(function):
         @izi.wraps(function)
         def decorated(*args, **kwargs):
-            kwargs['name'] = 'Timothy'
+            kwargs['name'] = 'ViTuocGia'
             return function(*args, **kwargs)
         return decorated
 
@@ -1229,7 +1229,7 @@ def test_wraps():
         return {'name': name, 'took': izi_timer}
 
     result = izi.test.get(api, 'what_is_my_name').data
-    assert result['name'] == 'Timothy'
+    assert result['name'] == 'ViTuocGia'
     assert result['took']
 
     def my_second_decorator(function):
@@ -1320,13 +1320,13 @@ def test_startup():
 @pytest.mark.skipif(sys.platform == 'win32', reason='Currently failing on Windows build')
 def test_adding_headers():
     """Test to ensure it is possible to inject response headers based on only the URL route"""
-    @izi.get(response_headers={'name': 'Timothy'})
+    @izi.get(response_headers={'name': 'ViTuocGia'})
     def endpoint():
         return ''
 
     result = izi.test.get(api, 'endpoint')
     assert result.data == ''
-    assert result.headers_dict['name'] == 'Timothy'
+    assert result.headers_dict['name'] == 'ViTuocGia'
 
 
 def test_on_demand_404(izi_api):

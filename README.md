@@ -128,7 +128,7 @@ izi's `http` method decorators don't modify your original functions. This makes 
 import izi
 import happy_birthday
 
-izi.test.get(happy_birthday, 'happy_birthday', {'name': 'Timothy', 'age': 25}) # Returns a Response object
+izi.test.get(happy_birthday, 'happy_birthday', {'name': 'ViTuocGia', 'age': 25}) # Returns a Response object
 ```
 
 You can use this `Response` object for test assertions (check
@@ -136,7 +136,7 @@ out [`test_happy_birthday.py`](examples/test_happy_birthday.py) ):
 
 ```python
 def tests_happy_birthday():
-    response = izi.test.get(happy_birthday, 'happy_birthday', {'name': 'Timothy', 'age': 25})
+    response = izi.test.get(happy_birthday, 'happy_birthday', {'name': 'ViTuocGia', 'age': 25})
     assert response.status == HTTP_200
     assert response.data is not None
 ``` 
