@@ -1,0 +1,4 @@
+git+git://github.com/timothycrosley/izi@develop#egg=izi
+sqlalchemy
+marshmallow
+marshmallow-sqlalchemy
