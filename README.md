@@ -417,7 +417,7 @@ bash-4.3# tree
 Why izi?
 ===================
 
-IZIR simply stands for Hopefully Useful Guide. This represents the project's goal to help guide developers into creating well written and intuitive APIs.
+This represents the project's goal to help guide developers into creating well written and intuitive APIs.
 
 --------------------------------------------
 
