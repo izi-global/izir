@@ -91,8 +91,8 @@ setup(name='izi',
       description='A Python framework that makes developing APIs as simple as possible, but no simpler.',
       long_description=readme,
       author='DiepDT',
-      author_email='timothy.crosley@gmail.com',
-      url='https://github.com/timothycrosley/izi',
+      author_email='dotiendiep@gmail.com',
+      url='https://github.com/izi-global/izi',
       license="MIT",
       entry_points={
         'console_scripts': [

@@ -1,12 +1,12 @@
 [![IZIR](https://raw.github.com/izi-global/izir/develop/artwork/logo.png)](http://izi.rest)
 ===================
 
-[![PyPI version](https://badge.fury.io/py/izi.svg)](http://badge.fury.io/py/izi)
-[![Build Status](https://travis-ci.org/timothycrosley/izi.svg?branch=master)](https://travis-ci.org/timothycrosley/izi)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/0h7ynsqrbaxs7hfm/branch/master?svg=true)](https://ci.appveyor.com/project/TimothyCrosley/izi)
-[![Coverage Status](https://coveralls.io/repos/timothycrosley/izi/badge.svg?branch=master&service=github)](https://coveralls.io/github/timothycrosley/izi?branch=master)
+[![PyPI version](https://badge.fury.io/py/izir.svg)](http://badge.fury.io/py/izir)
+[![Build Status](https://travis-ci.org/izi-global/izi.svg?branch=master)](https://travis-ci.org/izi-global/izir)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/0h7ynsqrbaxs7hfm/branch/master?svg=true)](https://ci.appveyor.com/project/izi-global/izir)
+[![Coverage Status](https://coveralls.io/repos/izi-global/izi/badge.svg?branch=master&service=github)](https://coveralls.io/github/izi-global/izi?branch=master)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.python.org/pypi/izi/)
-[![Join the chat at https://gitter.im/timothycrosley/izi](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/timothycrosley/izi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/izi-global/izi](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/izi-global/izi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 NOTE: For more in-depth documentation visit [izi's website](http://www.izi.rest)
 

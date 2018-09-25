@@ -1,5 +1,5 @@
 FROM python:alpine
-MAINTAINER Housni Yakoob <housni.yakoob@gmail.com>
+MAINTAINER Housni Yakoob <dotiendiep@gmail.com>
 
 EXPOSE 8000
 
