@@ -86,13 +86,13 @@ try:
 except (IOError, ImportError, OSError, RuntimeError):
    readme = ''
 
-setup(name='izi',
-      version='2.4.1',
+setup(name='izir',
+      version='1.0.0',
       description='A Python framework that makes developing APIs as simple as possible, but no simpler.',
       long_description=readme,
       author='DiepDT',
       author_email='dotiendiep@gmail.com',
-      url='https://github.com/izi-global/izi',
+      url='https://github.com/izi-global/izir',
       license="MIT",
       entry_points={
         'console_scripts': [
@@ -105,7 +105,7 @@ setup(name='izi',
       cmdclass=cmdclass,
       ext_modules=ext_modules,
       python_requires=">=3.4",
-      keywords='Web, Python, Python3, Refactoring, REST, Framework, RPC',
+      keywords='Web, Python, Python3, Refactoring, REST, Framework, RPC, IZI Rest,IZIR',
       classifiers=['Development Status :: 6 - Mature',
                    'Intended Audience :: Developers',
                    'Natural Language :: English',

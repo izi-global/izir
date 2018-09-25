@@ -32,7 +32,7 @@ Installing izi
 Installing izi is as simple as:
 
 ```bash
-pip3 install izi --upgrade
+pip3 install izir --upgrade
 ```
 
 Ideally, within a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
