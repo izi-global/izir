@@ -2,7 +2,6 @@ Contributing to izi
 =========
 Looking for a growing and useful open source project to contribute to?
 Want your contributions to be warmly welcomed and acknowledged?
-Want a free project t-shirt to show you're a contributor?
 Welcome! You have found the right place.
 
 izi is growing quickly and needs awesome contributors like *you* to help the project reach its full potential.
@@ -49,13 +48,9 @@ Congrats! You're now ready to make a contribution! Use the following as a guide 
 
 Thanks for the contribution! It will quickly get reviewed, and, once accepted, will result in your name being added to the ACKNOWLEDGEMENTS.md list :).
 
-Getting a free t-shirt
-=========
-![izi t-shirt](https://raw.github.com/izi-global/izir/develop/artwork/t-shirt.png)
 
 Once you have finished contributing to the project, send your mailing address and shirt size to timothy.crosley@gmail.com, with the title izi Shirt for @$GITHUB_USER_NAME.
 
-When the project has reached 100 contributors, I will be sending every one of the original hundred contributors a t-shirt to commemorate their awesome work.
 
 Thank you!
 =========
