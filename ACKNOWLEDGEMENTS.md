@@ -79,4 +79,4 @@ Documenters
 
 A sincere thanks to everyone who has helped make izi the great Python3 project it is today!
 
-~Timothy Crosley
+~DiepDT

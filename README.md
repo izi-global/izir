@@ -423,4 +423,4 @@ IZIR simply stands for Hopefully Useful Guide. This represents the project's goa
 
 Thanks and I hope you find *this* izi helpful as you develop your next Python API!
 
-~Timothy Crosley
+~DiepDT

@@ -58,4 +58,4 @@ I can not tell you how thankful I am for the hard work done by izi contributors 
 
 Thank you!
 
-~Timothy Crosley
+~DiepDT

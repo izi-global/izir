@@ -37,4 +37,4 @@ A sincere thanks to anyone that takes the time to develop and register an extens
 
 Thanks!
 
-~Timothy Crosley
+~DiepDT
