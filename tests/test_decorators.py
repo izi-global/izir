@@ -817,7 +817,7 @@ def test_extending_api_with_same_path_under_different_base_url():
 
 def test_cli():
     """Test to ensure the CLI wrapper works as intended"""
-    @izi.cli('command', '1.0.0', output=str)
+    @izi.cli('command', '1.0.1', output=str)
     def cli_command(name: str, value: int):
         return (name, value)
 

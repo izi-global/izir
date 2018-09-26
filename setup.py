@@ -87,7 +87,7 @@ except (IOError, ImportError, OSError, RuntimeError):
    readme = ''
 
 setup(name='izir',
-      version='1.0.0',
+      version='1.0.1',
       description='A Python framework that makes developing APIs as simple as possible, but no simpler.',
       long_description=readme,
       author='DiepDT',

@@ -98,7 +98,7 @@ def test_routing_class_based_method_view_with_sub_routing():
 
 def test_routing_class_with_cli_commands():
     """Basic operation test"""
-    @izi.object(name='git', version='1.0.0')
+    @izi.object(name='git', version='1.0.1')
     class GIT(object):
         """An example of command like calls via an Object"""
 

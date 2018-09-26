@@ -3,7 +3,7 @@ import izi
 API = izi.API('git')
 
 
-@izi.object(name='git', version='1.0.0', api=API)
+@izi.object(name='git', version='1.0.1', api=API)
 class GIT(object):
     """An example of command like calls via an Object"""
 
