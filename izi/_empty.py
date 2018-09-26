@@ -3,7 +3,7 @@
 Defines a set of empty types for use within izi, to ensure extra memory / processing isn't taken creating empty types
 as default values.
 
-Copyright (C) 2018  IZI Global
+Copyright (C) 2018 IZI Global
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation

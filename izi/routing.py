@@ -3,7 +3,7 @@
 Defines the chainable classes responsible for defining the routing of Python functions for use with Falcon
 and CLIs
 
-Copyright (C) 2018  IZI Global
+Copyright (C) 2018 IZI Global
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation

@@ -3,7 +3,7 @@
 
 Defines the setup instructions for the izi framework
 
-Copyright (C) 2018  IZI Global
+Copyright (C) 2018 IZI Global
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation
