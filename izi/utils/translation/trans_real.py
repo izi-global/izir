@@ -136,15 +136,16 @@ class DjangoTranslation(gettext_module.GNUTranslations):
         try:
             app_configs = reversed(list(apps.get_app_configs()))
         except AppRegistryNotReady:
-            raise AppRegistryNotReady(
-                "The translation infrastructure cannot be initialized before the "
-                "apps registry is ready. Check that you don't make non-lazy "
-                "gettext calls at import time.")
-        for app_config in app_configs:
-            localedir = os.path.join(app_config.path, 'locale')
-            if os.path.exists(localedir):
-                translation = self._new_gnu_trans(localedir)
-                self.merge(translation)
+            print("Should bypass ..... AppRegistryNotReady line 139")
+            # raise AppRegistryNotReady(
+            #     "The translation infrastructure cannot be initialized before the "
+            #     "apps registry is ready. Check that you don't make non-lazy "
+            #     "gettext calls at import time.")
+        # for app_config in app_configs:
+        #     localedir = os.path.join(app_config.path, 'locale')
+        #     if os.path.exists(localedir):
+        #         translation = self._new_gnu_trans(localedir)
+        #         self.merge(translation)
 
     def _add_local_translations(self):
         """Merge translations defined in LOCALE_PATHS."""

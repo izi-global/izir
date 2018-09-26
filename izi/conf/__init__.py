@@ -2,7 +2,7 @@
 Settings and configuration for IZI Rest.
 
 Read values from the module specified by the DJANGO_SETTINGS_MODULE environment
-variable, and then from django.conf.global_settings; see the global_settings.py
+variable, and then from izi.conf.global_settings; see the global_settings.py
 for a list of all possible variables.
 """
 
@@ -121,8 +121,8 @@ class Settings:
                 setattr(self, setting, setting_value)
                 self._explicit_settings.add(setting)
 
-        if not self.SECRET_KEY:
-            raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+        # if not self.SECRET_KEY:
+        #     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
 
 
         if hasattr(time, 'tzset') and self.TIME_ZONE:

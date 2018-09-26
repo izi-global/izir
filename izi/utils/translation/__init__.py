@@ -50,6 +50,7 @@ class Trans:
 
     def __getattr__(self, real_name):
         from izi.conf import settings
+        print("Check setttinngnngngngnng -----> ", settings.USE_I18N)
         if settings.USE_I18N:
             from izi.utils.translation import trans_real as trans
         else:
